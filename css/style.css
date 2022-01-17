@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+}
+body header {
+  width: 100%;
+  background-color: #535353;
+  padding: 2rem;
+  box-shadow: 0px 4px 15px white;
+}
+body header h1 {
+  text-align: center;
+  color: #ad4cfd;
+  text-decoration: underline rgba(0, 0, 0, 0.281);
+  font-size: 1.8rem;
+}
+body header a {
+  text-decoration: none;
+  color: #ad4cfd;
+  font-size: 1.4rem;
+}
+body main {
+  min-height: 100vh;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+body main div {
+  margin: 2rem;
+  width: 80%;
+  padding: 4rem;
+  text-align: center;
+  background-color: #353535;
+  border-radius: 75px 0 75px 0;
+  box-shadow: inset 2px 2px 5px steelblue;
+}
+body main div a {
+  text-decoration: none;
+  color: #ad4cfd;
+  font-size: 1.4rem;
+}
+body main div:hover {
+  background-color: #535353;
+  box-shadow: 2px 2px 5px steelblue;
+}
+body main h2, body main p {
+  margin: 2rem;
+  text-align: center;
+  color: #ad4cfd;
+  font-size: 1.8rem;
+}
+body footer {
+  margin-bottom: 0;
+  width: 100%;
+  background-color: #535353;
+  padding: 4rem;
+  box-shadow: 0px -3px 15px white;
+}
+body footer h3 {
+  text-align: center;
+  color: #ad4cfd;
+  font-size: 1.8rem;
+}
+
+/*# sourceMappingURL=style.css.map */
